@@ -14,7 +14,7 @@ const Player = () => {
         <input type="range" />
         <p>End Time</p>
       </div>
-      <div className="player-control">
+      <div className="play-control">
         <FontAwesomeIcon className="skip-back" icon={faAngleLeft} size="2x" />
         <FontAwesomeIcon className="play" icon={faPlay} size="2x" />
         <FontAwesomeIcon
