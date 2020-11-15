@@ -6,7 +6,7 @@
   height: 100%;
   overflow: scroll;
   box-shadow: 2px 2px 50px rgb(207, 203, 203);
-
+  background-color: white;
   h2 {
     padding: 2rem;
   }
@@ -16,11 +16,17 @@
   display: flex;
   align-items: center;
   padding: 1rem 2rem;
+  cursor: pointer;
   img {
     width: 30%;
   }
   .song-description {
     padding-left: 1rem;
+  }
+  h3,
+  h4 {
+    color: rgb(116, 113, 113);
+    font-weight: 400;
   }
   h3 {
     font-size: 1rem;
