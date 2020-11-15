@@ -1,6 +1,12 @@
 import React from "react";
 
-const LibrarySong = ({ song, setCurrentSong, audioRef, isPlaying }) => {
+const LibrarySong = ({
+  song,
+  setCurrentSong,
+  audioRef,
+  isPlaying,
+  isActive,
+}) => {
   const { cover, name, artist } = song;
   const selectSongHandler = () => {
     setCurrentSong(song);
@@ -14,7 +20,10 @@ const LibrarySong = ({ song, setCurrentSong, audioRef, isPlaying }) => {
     }
   };
   return (
-    <div onClick={selectSongHandler} className="library-song">
+    <div
+      onClick={selectSongHandler}
+      className={`library-song ${isActive ? "selected" : ""}`}
+    >
       <img src={cover} alt={name} />
       <div className="song-description">
         <h3>{name}</h3>

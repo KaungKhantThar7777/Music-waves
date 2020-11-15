@@ -1,0 +1,26 @@
+nav {
+  min-height: 10vh;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  h1 {
+    font-size: 2rem;
+  }
+  button {
+    border: none;
+    background-color: transparent;
+    color: rgb(68, 68, 68);
+    border: 2px solid rgb(68, 68, 68);
+    padding: 0.5rem;
+    border-radius: 5px;
+    transition: all 0.2s ease;
+    &:hover {
+      background-color: rgb(68, 68, 68);
+      color: white;
+    }
+    &:active {
+      padding: 0.45rem;
+    }
+  }
+}

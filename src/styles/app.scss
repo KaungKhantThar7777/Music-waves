@@ -12,6 +12,7 @@ h3 {
   color: rgb(54, 54, 54);
 }
 
-@import "./_player";
-@import "./_song";
-@import "./_library";
+@import "./player";
+@import "./song";
+@import "./library";
+@import "./nav";
