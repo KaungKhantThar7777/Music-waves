@@ -34,6 +34,8 @@ function App() {
       <Nav setIsLibraryOpen={setIsLibraryOpen} />
       <Song currentSong={currentSong} isPlaying={isPlaying} />
       <Player
+        songs={songs}
+        setCurrentSong={setCurrentSong}
         songInfo={songInfo}
         setSongInfo={setSongInfo}
         audioRef={audioRef}
