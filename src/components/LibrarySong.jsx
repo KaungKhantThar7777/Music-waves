@@ -10,6 +10,7 @@ const LibrarySong = ({
 }) => {
   const { cover, name, artist } = song;
   const selectSongHandler = () => {
+    audioRef.current.pause();
     setCurrentSong(song);
     playAudio(isPlaying, audioRef);
   };
