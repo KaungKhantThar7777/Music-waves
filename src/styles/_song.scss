@@ -32,3 +32,11 @@
 .selected {
   background-color: rgb(131, 194, 221);
 }
+
+@media screen and (max-width: 768px) {
+  .song-container {
+    img {
+      width: 60%;
+    }
+  }
+}
