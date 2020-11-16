@@ -9,7 +9,7 @@
   background-color: white;
   transform: translateX(-100%);
   opacity: 0;
-  transition: all 0.2s ease-in;
+  transition: all 0.4s ease;
   h2 {
     padding: 2rem;
   }
@@ -20,7 +20,7 @@
   align-items: center;
   padding: 1rem 2rem;
   cursor: pointer;
-  transition: background 0.4s ease;
+  transition: background 0.5s ease;
   img {
     width: 30%;
   }
@@ -70,5 +70,8 @@
 @media screen and (max-width: 768px) {
   .library {
     width: 100%;
+    h2 {
+      padding: 1.3rem 2rem;
+    }
   }
 }
